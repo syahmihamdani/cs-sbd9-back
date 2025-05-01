@@ -5,7 +5,7 @@ app.use(express.json());
 
 const cors = require('cors');
 
-const allowedOrigins = ['cs-sbd9-front.vercel.app'];
+const allowedOrigins = ['https://cs-sbd9-front.vercel.app'];
 
 const corsOptions = {
   origin: function (origin, callback) {
