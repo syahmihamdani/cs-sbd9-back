@@ -5,7 +5,7 @@ app.use(express.json());
 
 const cors = require('cors');
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['cs-sbd9-front.vercel.app'];
 
 const corsOptions = {
   origin: function (origin, callback) {
